@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ladder_id: MyString
+  ladder_spot: MyString
+  first_name: MyString
+  last_name: MyString
+  record: MyString
+
+two:
+  ladder_id: MyString
+  ladder_spot: MyString
+  first_name: MyString
+  last_name: MyString
+  record: MyString
