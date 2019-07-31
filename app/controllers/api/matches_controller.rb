@@ -15,6 +15,7 @@ class Api::MatchesController < ApplicationController
       render json: {
         error: "This match failed to save"
       }
+    end
   end
 
   def update

@@ -15,6 +15,7 @@ class Api::PlayersController < ApplicationController
       render json: {
         error: "This player failed to save"
       }
+    end
   end
 
   def update
