@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(version: 2019_07_31_011139) do
   enable_extension "plpgsql"
 
   create_table "ladders", force: :cascade do |t|
+    t.string "name"
     t.string "size"
     t.integer "user_id"
     t.datetime "created_at", null: false
