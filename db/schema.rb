@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 2019_07_31_011139) do
   enable_extension "plpgsql"
 
   create_table "ladders", force: :cascade do |t|
-    t.string "name"
+    t.string "title"
     t.string "size"
     t.integer "user_id"
     t.datetime "created_at", null: false
@@ -37,7 +37,7 @@ ActiveRecord::Schema.define(version: 2019_07_31_011139) do
     t.integer "ladder_spot"
     t.string "first_name"
     t.string "last_name"
-    t.string "record"
+    t.string "match_record"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

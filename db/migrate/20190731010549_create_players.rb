@@ -5,7 +5,7 @@ class CreatePlayers < ActiveRecord::Migration[5.2]
       t.integer :ladder_spot
       t.string :first_name
       t.string :last_name
-      t.string :record
+      t.string :match_record
 
       t.timestamps
     end
