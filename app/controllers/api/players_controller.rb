@@ -1,7 +1,7 @@
 class Api::PlayersController < ApplicationController
 
   def index
-    @ladder = Ladder.find_by_id(params[:ladderId])
+    @ladder = Ladder.find_by_id(params[:ladderId].to_i)
     @players = @ladder.players
     render json: @players
   end
