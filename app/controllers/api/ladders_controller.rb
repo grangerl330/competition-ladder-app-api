@@ -7,7 +7,7 @@ class Api::LaddersController < ApplicationController
   end
 
   def show
-    @ladder = Ladder.find_by_id(params[:id])]
+    @ladder = Ladder.find_by_id(params[:id])
     render json: @ladder
   end
 
