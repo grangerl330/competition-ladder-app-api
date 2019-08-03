@@ -6,6 +6,11 @@ class Api::LaddersController < ApplicationController
     render json: @ladders
   end
 
+  def show
+    @ladder = Ladder.find_by_id(params[:id])]
+    render json: @ladder
+  end
+
   def create
     @ladder = Ladder.new(ladder_params)
 
