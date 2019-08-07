@@ -40,8 +40,7 @@ class Api::LaddersController < ApplicationController
     @ladder.destroy
 
     render json: {
-      notice: "Ladder Successfully Deleted",
-      ladderId: params[:ladderId]
+      notice: "Ladder Successfully Deleted"
     }
   end
 
