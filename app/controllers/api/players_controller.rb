@@ -30,6 +30,20 @@ class Api::PlayersController < ApplicationController
     end
   end
 
+  def update_from_ladder
+    ladder_spots = params[:ladderSpots]
+
+    ladder_spots.each { |spot|
+      player = Player.find_by_id(spot['player']['id'])
+      player.update(ladder_spot: spot['spot'])
+    }
+
+    render json: {
+      notice: "players updated"
+    }
+
+  end
+
   def destroy
     @player = Player.find_by_id(params[:playerId])
     @player.destroy
@@ -43,6 +57,6 @@ class Api::PlayersController < ApplicationController
   private
 
   def player_params
-    params.require(:player).permit(:first_name, :last_name, :record, :ladder_spot, :ladder_id)
+    params.require(:player).permit(:first_name, :last_name, :match_record, :ladder_spot, :ladder_id)
   end
 end
