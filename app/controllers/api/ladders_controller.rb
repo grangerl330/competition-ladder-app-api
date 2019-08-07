@@ -48,6 +48,6 @@ class Api::LaddersController < ApplicationController
   private
 
   def ladder_params
-    params.require(:ladder).permit(:size)
+    params.require(:ladder).permit(:title, :user_id)
   end
 end
