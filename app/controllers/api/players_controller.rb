@@ -39,7 +39,7 @@ class Api::PlayersController < ApplicationController
     }
 
     render json: {
-      notice: "players updated"
+      notice: "players updated in database"
     }
 
   end
