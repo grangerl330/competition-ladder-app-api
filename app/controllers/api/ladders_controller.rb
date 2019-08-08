@@ -13,7 +13,7 @@ class Api::LaddersController < ApplicationController
 
   def create
     @ladder = Ladder.new(ladder_params)
-
+    binding.pry
     num_array = (1..params[:ladder][:numberOfPlayerInputs]).to_a
 
     if @ladder.save
@@ -29,9 +29,15 @@ class Api::LaddersController < ApplicationController
   end
 
   def update
-    @ladder = Ladder.find_by_id(params[:ladderId])
+    @ladder = Ladder.find_by_id(params[:ladder][:id])
+    num_array = (1..params[:ladder][:numberOfPlayerInputs]).to_a
 
     if @ladder.update(ladder_params)
+      num_array.each {|n|
+        player_id = params[:ladder]["spot#{n}"][:id]
+        player = Player.find_by_id(player_id)
+        player.update(first_name: params[:ladder]["spot#{n}"]['name'], ladder_id: @ladder.id, ladder_spot: n)
+      }
       render json: @ladder
     else
       render json: {

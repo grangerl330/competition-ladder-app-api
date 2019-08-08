@@ -15,16 +15,16 @@ Ladder.create(title: "Fall 2019", size: 15, user_id: 1)
 
 # Players
 # Summer 2019
-Player.create(first_name: "Bob", last_name: "Jones", match_record: "0-0", ladder_id: 1, ladder_spot: 1)
-Player.create(first_name: "Sam", last_name: "Smith", match_record: "0-0", ladder_id: 1, ladder_spot: 2)
-Player.create(first_name: "Billy", last_name: "Bobby", match_record: "0-0", ladder_id: 1, ladder_spot: 3)
-Player.create(first_name: "Michael", last_name: "Johnson", match_record: "0-0", ladder_id: 1, ladder_spot: 4)
-Player.create(first_name: "Adam", last_name: "Chin", match_record: "0-0", ladder_id: 1, ladder_spot: 5)
-Player.create(first_name: "Jake", last_name: "Williams", match_record: "0-0", ladder_id: 1, ladder_spot: 6)
-Player.create(first_name: "Justin", last_name: "Brown", match_record: "0-0", ladder_id: 1, ladder_spot: 7)
-Player.create(first_name: "Jimmy", last_name: "Davis", match_record: "0-0", ladder_id: 1, ladder_spot: 8)
-Player.create(first_name: "William", last_name: "Wilson", match_record: "0-0", ladder_id: 1, ladder_spot: 9)
-Player.create(first_name: "Roger", last_name: "Morris", match_record: "0-0", ladder_id: 1, ladder_spot: 10)
+Player.create(first_name: "Bob Jones", last_name: "", match_record: "0-0", ladder_id: 1, ladder_spot: 1)
+Player.create(first_name: "Sam Smith", last_name: "", match_record: "0-0", ladder_id: 1, ladder_spot: 2)
+Player.create(first_name: "Billy Bobby", last_name: "", match_record: "0-0", ladder_id: 1, ladder_spot: 3)
+Player.create(first_name: "Michael Johnson", last_name: "", match_record: "0-0", ladder_id: 1, ladder_spot: 4)
+Player.create(first_name: "Adam Chin", last_name: "", match_record: "0-0", ladder_id: 1, ladder_spot: 5)
+Player.create(first_name: "Jake Williams", last_name: "", match_record: "0-0", ladder_id: 1, ladder_spot: 6)
+Player.create(first_name: "Justin Brown", last_name: "", match_record: "0-0", ladder_id: 1, ladder_spot: 7)
+Player.create(first_name: "Jimmy Davis", last_name: "", match_record: "0-0", ladder_id: 1, ladder_spot: 8)
+Player.create(first_name: "William Wilson", last_name: "", match_record: "0-0", ladder_id: 1, ladder_spot: 9)
+Player.create(first_name: "Roger Morris", last_name: "", match_record: "0-0", ladder_id: 1, ladder_spot: 10)
 
 # Fall 2019
 Player.create(first_name: "Roger", last_name: "Federer", match_record: "0-0", ladder_id: 2, ladder_spot: 1)
