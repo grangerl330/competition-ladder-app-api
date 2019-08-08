@@ -1,4 +1,4 @@
-# README
+## About
 
 This is the Rails API backend for the Virtual competition Ladder App, an app designed for users to build and edit ladders to be used for ladder competition
 
