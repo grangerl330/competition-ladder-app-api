@@ -1,8 +1,7 @@
 class Api::LaddersController < ApplicationController
 
   def index
-    # @ladders = current_user.ladders
-    @ladders = Ladder.all
+    @ladders = current_user.ladders
     render json: @ladders
   end
 
