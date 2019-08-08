@@ -35,8 +35,7 @@ ActiveRecord::Schema.define(version: 2019_07_31_011139) do
   create_table "players", force: :cascade do |t|
     t.integer "ladder_id"
     t.integer "ladder_spot"
-    t.string "first_name"
-    t.string "last_name"
+    t.string "name"
     t.string "match_record"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

@@ -57,6 +57,6 @@ class Api::PlayersController < ApplicationController
   private
 
   def player_params
-    params.require(:player).permit(:first_name, :last_name, :match_record, :ladder_spot, :ladder_id)
+    params.require(:player).permit(:name, :match_record, :ladder_spot, :ladder_id)
   end
 end
