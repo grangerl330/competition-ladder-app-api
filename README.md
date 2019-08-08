@@ -8,27 +8,23 @@ Ladder competition is a that format sees all competing players placed in a ladde
 
 This application is currently run on your local host
 
-Please fork and clone this repo then run:
+**Please fork and clone this repo then run:**
 
-$ bundle install
+`bundle install`, `rake db:create`, and `rake db:migrate`
 
-and
+**If you wish to start with pre-entered data, run:**
 
-$ rake db:create && rake db:migrate
+`rake db:seed`
 
-If you wish to start with pre-entered data, run:
+*This data can be found in /db/seeds.rb*
 
-$ rake db:seed
+**To start the backend server on your local machine, run:**
 
-* This data can be found in /db/seeds.rb
-
-To start the backend server on your local machine, run:
-
-$ rake start
+`rake start`
 
 Shut down the server by pressing ctrl + C
 
-* This will only start up the backend server of the app. In order to run the full app, you must fork and clone the client portion of the app and follow the README instructions. This can be found at:
+*This will only start up the backend server of the app. In order to run the full app, you must fork and clone the client portion of the app and follow the README instructions. This can be found at:*
 
 https://github.com/grangerl330/virtual-competition-ladder-client
 
