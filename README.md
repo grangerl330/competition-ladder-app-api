@@ -1,6 +1,6 @@
 ## About
 
-This is the Rails API backend for the Virtual competition Ladder App, an app designed for users to build and edit ladders to be used for ladder competition
+This is the Rails API backend for the Competition Ladder App, an app designed for users to build and edit ladders to be used for ladder competition
 
 Ladder competition is a that format sees all competing players placed in a ladder, one on top of the other. Players challenge each other. If a player lower down the ladder beats a higher placed player, they change places – the lower, winning player moving up the ladder.
 
