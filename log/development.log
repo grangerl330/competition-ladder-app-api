@@ -1,0 +1,704 @@
+Started GET "/" for ::1 at 2020-01-17 19:30:04 -0500
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "club-ladder-api_development" does not exist
+):
+  
+activerecord (5.2.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:696:in `rescue in connect'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:691:in `connect'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:223:in `initialize'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `new'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `postgresql_connection'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:830:in `new_connection'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:874:in `checkout_new_connection'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `try_to_checkout_new_connection'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:814:in `acquire_connection'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:538:in `checkout'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1033:in `retrieve_connection'
+activerecord (5.2.4.1) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.4.1) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.4.1) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/favicon.ico" for ::1 at 2020-01-17 19:30:05 -0500
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "club-ladder-api_development" does not exist
+):
+  
+activerecord (5.2.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:696:in `rescue in connect'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:691:in `connect'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:223:in `initialize'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `new'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/postgresql_adapter.rb:48:in `postgresql_connection'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:830:in `new_connection'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:874:in `checkout_new_connection'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:853:in `try_to_checkout_new_connection'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:814:in `acquire_connection'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:538:in `checkout'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:382:in `connection'
+activerecord (5.2.4.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:1033:in `retrieve_connection'
+activerecord (5.2.4.1) lib/active_record/connection_handling.rb:118:in `retrieve_connection'
+activerecord (5.2.4.1) lib/active_record/connection_handling.rb:90:in `connection'
+activerecord (5.2.4.1) lib/active_record/migration.rb:554:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.4.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.1) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.1.1) lib/rack/runtime.rb:24:in `call'
+activesupport (5.2.4.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.1.1) lib/rack/sendfile.rb:113:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (5.2.4.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.2) lib/puma/configuration.rb:227:in `call'
+puma (3.12.2) lib/puma/server.rb:674:in `handle_request'
+puma (3.12.2) lib/puma/server.rb:476:in `process_client'
+puma (3.12.2) lib/puma/server.rb:334:in `block in run'
+puma (3.12.2) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (1649.2ms)[0m  [1m[35mCREATE DATABASE "club-ladder-api_development" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (831.3ms)[0m  [1m[35mCREATE DATABASE "club-ladder-api_test" ENCODING = 'unicode'[0m
+  ↳ bin/rails:9
+  [1m[35m (37.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:9
+  [1m[35m (26.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4341556369116750945)[0m
+  ↳ bin/rails:9
+  [1m[35m (6.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateLadders (20190731010415)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (29.8ms)[0m  [1m[35mCREATE TABLE "ladders" ("id" bigserial primary key, "title" character varying, "size" character varying, "user_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20190731010415_create_ladders.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190731010415"]]
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+Migrating to CreatePlayers (20190731010549)
+  [1m[35m (5.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (23.7ms)[0m  [1m[35mCREATE TABLE "players" ("id" bigserial primary key, "ladder_id" integer, "ladder_spot" integer, "name" character varying, "match_record" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20190731010549_create_players.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190731010549"]]
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+Migrating to CreateMatches (20190731010641)
+  [1m[35m (6.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (22.6ms)[0m  [1m[35mCREATE TABLE "matches" ("id" bigserial primary key, "player_id" integer, "score" character varying, "result" character varying, "date" date, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20190731010641_create_matches.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190731010641"]]
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+Migrating to CreateUsers (20190731011139)
+  [1m[35m (6.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[35m (27.7ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "username" character varying, "email" character varying, "password_digest" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20190731011139_create_users.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (4.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190731011139"]]
+  ↳ bin/rails:9
+  [1m[35m (6.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Create (17.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-01-18 00:30:45.911956"], ["updated_at", "2020-01-18 00:30:45.911956"]]
+  ↳ bin/rails:9
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(4341556369116750945)[0m
+  ↳ bin/rails:9
+  [1m[35m (6.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "user1"], ["email", "user1@gmail.com"], ["password_digest", "$2a$12$tBZtQ7gf2jZa2SqLSx83/.fwgTBEr0/cjks8FMp4/rhgtt4Zjf2yC"], ["created_at", "2020-01-18 00:30:58.604991"], ["updated_at", "2020-01-18 00:30:58.604991"]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:13
+  [1m[36mUser Load (6.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:13
+  [1m[36mLadder Create (7.0ms)[0m  [1m[32mINSERT INTO "ladders" ("title", "size", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "Summer 2019"], ["size", "10"], ["user_id", 1], ["created_at", "2020-01-18 00:30:58.720384"], ["updated_at", "2020-01-18 00:30:58.720384"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (5.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:14
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:14
+  [1m[36mLadder Create (0.4ms)[0m  [1m[32mINSERT INTO "ladders" ("title", "size", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "Fall 2019"], ["size", "15"], ["user_id", 1], ["created_at", "2020-01-18 00:30:58.736172"], ["updated_at", "2020-01-18 00:30:58.736172"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (6.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:18
+  [1m[36mLadder Load (0.4ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:18
+  [1m[36mPlayer Create (1.6ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 1], ["ladder_spot", 1], ["name", "Bob Jones"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:30:58.762581"], ["updated_at", "2020-01-18 00:30:58.762581"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (5.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:19
+  [1m[36mLadder Load (0.5ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:19
+  [1m[36mPlayer Create (0.4ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 1], ["ladder_spot", 2], ["name", "Sam Smith"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:30:58.781899"], ["updated_at", "2020-01-18 00:30:58.781899"]]
+  ↳ db/seeds.rb:19
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:20
+  [1m[36mLadder Load (0.3ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:20
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 1], ["ladder_spot", 3], ["name", "Billy Bobby"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:30:58.785037"], ["updated_at", "2020-01-18 00:30:58.785037"]]
+  ↳ db/seeds.rb:20
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:21
+  [1m[36mLadder Load (0.3ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:21
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 1], ["ladder_spot", 4], ["name", "Michael Johnson"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:30:58.787928"], ["updated_at", "2020-01-18 00:30:58.787928"]]
+  ↳ db/seeds.rb:21
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:21
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:22
+  [1m[36mLadder Load (0.3ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:22
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 1], ["ladder_spot", 5], ["name", "Adam Chin"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:30:58.791463"], ["updated_at", "2020-01-18 00:30:58.791463"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:23
+  [1m[36mLadder Load (0.3ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:23
+  [1m[36mPlayer Create (0.4ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 1], ["ladder_spot", 6], ["name", "Jake Williams"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:30:58.794935"], ["updated_at", "2020-01-18 00:30:58.794935"]]
+  ↳ db/seeds.rb:23
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:24
+  [1m[36mLadder Load (0.2ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:24
+  [1m[36mPlayer Create (1.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 1], ["ladder_spot", 7], ["name", "Justin Brown"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:30:58.798650"], ["updated_at", "2020-01-18 00:30:58.798650"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:25
+  [1m[36mLadder Load (0.1ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:25
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 1], ["ladder_spot", 8], ["name", "Jimmy Davis"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:30:58.802625"], ["updated_at", "2020-01-18 00:30:58.802625"]]
+  ↳ db/seeds.rb:25
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:25
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:26
+  [1m[36mLadder Load (0.2ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:26
+  [1m[36mPlayer Create (0.6ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 1], ["ladder_spot", 9], ["name", "William Wilson"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:30:58.805790"], ["updated_at", "2020-01-18 00:30:58.805790"]]
+  ↳ db/seeds.rb:26
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:27
+  [1m[36mLadder Load (0.3ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:27
+  [1m[36mPlayer Create (0.5ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 1], ["ladder_spot", 10], ["name", "Roger Morris"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:30:58.810524"], ["updated_at", "2020-01-18 00:30:58.810524"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:30
+  [1m[36mLadder Load (0.2ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:30
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 2], ["ladder_spot", 1], ["name", "Roger Federer"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:30:58.814611"], ["updated_at", "2020-01-18 00:30:58.814611"]]
+  ↳ db/seeds.rb:30
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:30
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:31
+  [1m[36mLadder Load (0.2ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[36mPlayer Create (0.4ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 2], ["ladder_spot", 2], ["name", "Rafael Nadal"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:30:58.818096"], ["updated_at", "2020-01-18 00:30:58.818096"]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:32
+  [1m[36mLadder Load (0.2ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:32
+  [1m[36mPlayer Create (0.4ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 2], ["ladder_spot", 3], ["name", "Novak Djokovic"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:30:58.821710"], ["updated_at", "2020-01-18 00:30:58.821710"]]
+  ↳ db/seeds.rb:32
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:33
+  [1m[36mLadder Load (0.2ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:33
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 2], ["ladder_spot", 4], ["name", "Dominic Theim"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:30:58.826046"], ["updated_at", "2020-01-18 00:30:58.826046"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:34
+  [1m[36mLadder Load (0.2ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:34
+  [1m[36mPlayer Create (0.4ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 2], ["ladder_spot", 5], ["name", "Alexander Zverev"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:30:58.829356"], ["updated_at", "2020-01-18 00:30:58.829356"]]
+  ↳ db/seeds.rb:34
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:34
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:35
+  [1m[36mLadder Load (0.2ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:35
+  [1m[36mPlayer Create (0.8ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 2], ["ladder_spot", 6], ["name", "Stefanos Tsitsipas"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:30:58.833753"], ["updated_at", "2020-01-18 00:30:58.833753"]]
+  ↳ db/seeds.rb:35
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:35
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mLadder Load (0.2ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[36mPlayer Create (0.4ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 2], ["ladder_spot", 7], ["name", "Kei Nishikori"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:30:58.838230"], ["updated_at", "2020-01-18 00:30:58.838230"]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:37
+  [1m[36mLadder Load (0.2ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:37
+  [1m[36mPlayer Create (0.5ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 2], ["ladder_spot", 8], ["name", "Karen Khachanov"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:30:58.841995"], ["updated_at", "2020-01-18 00:30:58.841995"]]
+  ↳ db/seeds.rb:37
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:37
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mLadder Load (0.2ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:38
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 2], ["ladder_spot", 9], ["name", "Fabio Fognini"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:30:58.846227"], ["updated_at", "2020-01-18 00:30:58.846227"]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:39
+  [1m[36mLadder Load (0.2ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:39
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 2], ["ladder_spot", 10], ["name", "Danil Medvedev"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:30:58.849297"], ["updated_at", "2020-01-18 00:30:58.849297"]]
+  ↳ db/seeds.rb:39
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "user1"], ["email", "user1@gmail.com"], ["password_digest", "$2a$12$yDWZdKnXSwZqEfH1.72WTe5ywSaR8dnqfFHbEqudl3bY0qitnxucm"], ["created_at", "2020-01-18 00:32:35.812747"], ["updated_at", "2020-01-18 00:32:35.812747"]]
+  ↳ db/seeds.rb:10
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:13
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:13
+  [1m[36mLadder Create (0.6ms)[0m  [1m[32mINSERT INTO "ladders" ("title", "size", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "Summer 2019"], ["size", "10"], ["user_id", 1], ["created_at", "2020-01-18 00:32:35.845691"], ["updated_at", "2020-01-18 00:32:35.845691"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:14
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:14
+  [1m[36mLadder Create (0.4ms)[0m  [1m[32mINSERT INTO "ladders" ("title", "size", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "Fall 2019"], ["size", "15"], ["user_id", 1], ["created_at", "2020-01-18 00:32:35.850010"], ["updated_at", "2020-01-18 00:32:35.850010"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:18
+  [1m[36mLadder Load (0.4ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:18
+  [1m[36mPlayer Create (0.7ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 1], ["ladder_spot", 1], ["name", "Bob Jones"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:32:35.871330"], ["updated_at", "2020-01-18 00:32:35.871330"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:19
+  [1m[36mLadder Load (0.3ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:19
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 1], ["ladder_spot", 2], ["name", "Sam Smith"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:32:35.878346"], ["updated_at", "2020-01-18 00:32:35.878346"]]
+  ↳ db/seeds.rb:19
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:20
+  [1m[36mLadder Load (0.3ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:20
+  [1m[36mPlayer Create (0.5ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 1], ["ladder_spot", 3], ["name", "Billy Bobby"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:32:35.881522"], ["updated_at", "2020-01-18 00:32:35.881522"]]
+  ↳ db/seeds.rb:20
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:21
+  [1m[36mLadder Load (0.3ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:21
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 1], ["ladder_spot", 4], ["name", "Michael Johnson"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:32:35.884832"], ["updated_at", "2020-01-18 00:32:35.884832"]]
+  ↳ db/seeds.rb:21
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:21
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:22
+  [1m[36mLadder Load (0.2ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:22
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 1], ["ladder_spot", 5], ["name", "Adam Chin"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:32:35.887742"], ["updated_at", "2020-01-18 00:32:35.887742"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:23
+  [1m[36mLadder Load (0.3ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:23
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 1], ["ladder_spot", 6], ["name", "Jake Williams"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:32:35.890564"], ["updated_at", "2020-01-18 00:32:35.890564"]]
+  ↳ db/seeds.rb:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:24
+  [1m[36mLadder Load (0.1ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:24
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 1], ["ladder_spot", 7], ["name", "Justin Brown"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:32:35.893342"], ["updated_at", "2020-01-18 00:32:35.893342"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:25
+  [1m[36mLadder Load (0.1ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:25
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 1], ["ladder_spot", 8], ["name", "Jimmy Davis"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:32:35.895856"], ["updated_at", "2020-01-18 00:32:35.895856"]]
+  ↳ db/seeds.rb:25
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:25
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:26
+  [1m[36mLadder Load (0.1ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:26
+  [1m[36mPlayer Create (0.4ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 1], ["ladder_spot", 9], ["name", "William Wilson"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:32:35.898446"], ["updated_at", "2020-01-18 00:32:35.898446"]]
+  ↳ db/seeds.rb:26
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:27
+  [1m[36mLadder Load (0.2ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:27
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 1], ["ladder_spot", 10], ["name", "Roger Morris"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:32:35.901594"], ["updated_at", "2020-01-18 00:32:35.901594"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:30
+  [1m[36mLadder Load (0.1ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:30
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 2], ["ladder_spot", 1], ["name", "Roger Federer"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:32:35.904312"], ["updated_at", "2020-01-18 00:32:35.904312"]]
+  ↳ db/seeds.rb:30
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:30
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:31
+  [1m[36mLadder Load (0.2ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 2], ["ladder_spot", 2], ["name", "Rafael Nadal"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:32:35.906920"], ["updated_at", "2020-01-18 00:32:35.906920"]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:32
+  [1m[36mLadder Load (0.1ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:32
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 2], ["ladder_spot", 3], ["name", "Novak Djokovic"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:32:35.909476"], ["updated_at", "2020-01-18 00:32:35.909476"]]
+  ↳ db/seeds.rb:32
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:33
+  [1m[36mLadder Load (0.1ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:33
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 2], ["ladder_spot", 4], ["name", "Dominic Theim"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:32:35.911993"], ["updated_at", "2020-01-18 00:32:35.911993"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:34
+  [1m[36mLadder Load (0.2ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:34
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 2], ["ladder_spot", 5], ["name", "Alexander Zverev"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:32:35.914511"], ["updated_at", "2020-01-18 00:32:35.914511"]]
+  ↳ db/seeds.rb:34
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:34
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:35
+  [1m[36mLadder Load (0.2ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:35
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 2], ["ladder_spot", 6], ["name", "Stefanos Tsitsipas"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:32:35.917113"], ["updated_at", "2020-01-18 00:32:35.917113"]]
+  ↳ db/seeds.rb:35
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:35
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mLadder Load (0.2ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 2], ["ladder_spot", 7], ["name", "Kei Nishikori"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:32:35.919864"], ["updated_at", "2020-01-18 00:32:35.919864"]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:37
+  [1m[36mLadder Load (0.1ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:37
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 2], ["ladder_spot", 8], ["name", "Karen Khachanov"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:32:35.922319"], ["updated_at", "2020-01-18 00:32:35.922319"]]
+  ↳ db/seeds.rb:37
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:37
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mLadder Load (0.1ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:38
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 2], ["ladder_spot", 9], ["name", "Fabio Fognini"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:32:35.924965"], ["updated_at", "2020-01-18 00:32:35.924965"]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:39
+  [1m[36mLadder Load (0.1ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:39
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 2], ["ladder_spot", 10], ["name", "Danil Medvedev"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:32:35.927469"], ["updated_at", "2020-01-18 00:32:35.927469"]]
+  ↳ db/seeds.rb:39
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["username", "user1"], ["email", "user1@gmail.com"], ["password_digest", "$2a$12$c6eZzrCBosQ9ND/vhoJFLOFOpbj0hVmDKcZybIyFO13CLro/Lvfa6"], ["created_at", "2020-01-18 00:33:09.260171"], ["updated_at", "2020-01-18 00:33:09.260171"]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:13
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:13
+  [1m[36mLadder Create (0.7ms)[0m  [1m[32mINSERT INTO "ladders" ("title", "size", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "Summer 2019"], ["size", "10"], ["user_id", 1], ["created_at", "2020-01-18 00:33:09.287861"], ["updated_at", "2020-01-18 00:33:09.287861"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (6.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:14
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:14
+  [1m[36mLadder Create (0.3ms)[0m  [1m[32mINSERT INTO "ladders" ("title", "size", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "Fall 2019"], ["size", "15"], ["user_id", 1], ["created_at", "2020-01-18 00:33:09.297718"], ["updated_at", "2020-01-18 00:33:09.297718"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (12.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:18
+  [1m[36mLadder Load (0.5ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:18
+  [1m[36mPlayer Create (0.6ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 1], ["ladder_spot", 1], ["name", "Bob Jones"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:33:09.327151"], ["updated_at", "2020-01-18 00:33:09.327151"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (6.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:19
+  [1m[36mLadder Load (0.4ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:19
+  [1m[36mPlayer Create (0.5ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 1], ["ladder_spot", 2], ["name", "Sam Smith"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:33:09.337529"], ["updated_at", "2020-01-18 00:33:09.337529"]]
+  ↳ db/seeds.rb:19
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:20
+  [1m[36mLadder Load (0.4ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:20
+  [1m[36mPlayer Create (0.6ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 1], ["ladder_spot", 3], ["name", "Billy Bobby"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:33:09.341751"], ["updated_at", "2020-01-18 00:33:09.341751"]]
+  ↳ db/seeds.rb:20
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:21
+  [1m[36mLadder Load (0.3ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:21
+  [1m[36mPlayer Create (0.4ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 1], ["ladder_spot", 4], ["name", "Michael Johnson"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:33:09.346119"], ["updated_at", "2020-01-18 00:33:09.346119"]]
+  ↳ db/seeds.rb:21
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:21
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:22
+  [1m[36mLadder Load (0.3ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:22
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 1], ["ladder_spot", 5], ["name", "Adam Chin"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:33:09.349075"], ["updated_at", "2020-01-18 00:33:09.349075"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:23
+  [1m[36mLadder Load (0.3ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:23
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 1], ["ladder_spot", 6], ["name", "Jake Williams"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:33:09.352057"], ["updated_at", "2020-01-18 00:33:09.352057"]]
+  ↳ db/seeds.rb:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:24
+  [1m[36mLadder Load (0.1ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:24
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 1], ["ladder_spot", 7], ["name", "Justin Brown"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:33:09.354820"], ["updated_at", "2020-01-18 00:33:09.354820"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:25
+  [1m[36mLadder Load (0.2ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:25
+  [1m[36mPlayer Create (0.4ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 1], ["ladder_spot", 8], ["name", "Jimmy Davis"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:33:09.357486"], ["updated_at", "2020-01-18 00:33:09.357486"]]
+  ↳ db/seeds.rb:25
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:25
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:26
+  [1m[36mLadder Load (0.2ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:26
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 1], ["ladder_spot", 9], ["name", "William Wilson"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:33:09.360623"], ["updated_at", "2020-01-18 00:33:09.360623"]]
+  ↳ db/seeds.rb:26
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:27
+  [1m[36mLadder Load (0.2ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:27
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 1], ["ladder_spot", 10], ["name", "Roger Morris"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:33:09.363331"], ["updated_at", "2020-01-18 00:33:09.363331"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:30
+  [1m[36mLadder Load (0.1ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:30
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 2], ["ladder_spot", 1], ["name", "Roger Federer"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:33:09.365836"], ["updated_at", "2020-01-18 00:33:09.365836"]]
+  ↳ db/seeds.rb:30
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:30
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:31
+  [1m[36mLadder Load (0.2ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:31
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 2], ["ladder_spot", 2], ["name", "Rafael Nadal"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:33:09.368553"], ["updated_at", "2020-01-18 00:33:09.368553"]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:32
+  [1m[36mLadder Load (0.2ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:32
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 2], ["ladder_spot", 3], ["name", "Novak Djokovic"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:33:09.371330"], ["updated_at", "2020-01-18 00:33:09.371330"]]
+  ↳ db/seeds.rb:32
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:33
+  [1m[36mLadder Load (0.2ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:33
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 2], ["ladder_spot", 4], ["name", "Dominic Theim"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:33:09.374079"], ["updated_at", "2020-01-18 00:33:09.374079"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:34
+  [1m[36mLadder Load (0.2ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:34
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 2], ["ladder_spot", 5], ["name", "Alexander Zverev"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:33:09.376887"], ["updated_at", "2020-01-18 00:33:09.376887"]]
+  ↳ db/seeds.rb:34
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:34
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:35
+  [1m[36mLadder Load (0.2ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:35
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 2], ["ladder_spot", 6], ["name", "Stefanos Tsitsipas"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:33:09.379737"], ["updated_at", "2020-01-18 00:33:09.379737"]]
+  ↳ db/seeds.rb:35
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:35
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:36
+  [1m[36mLadder Load (0.2ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 2], ["ladder_spot", 7], ["name", "Kei Nishikori"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:33:09.382750"], ["updated_at", "2020-01-18 00:33:09.382750"]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:37
+  [1m[36mLadder Load (0.1ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:37
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 2], ["ladder_spot", 8], ["name", "Karen Khachanov"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:33:09.385522"], ["updated_at", "2020-01-18 00:33:09.385522"]]
+  ↳ db/seeds.rb:37
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:37
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mLadder Load (0.1ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:38
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 2], ["ladder_spot", 9], ["name", "Fabio Fognini"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:33:09.388084"], ["updated_at", "2020-01-18 00:33:09.388084"]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:39
+  [1m[36mLadder Load (0.1ms)[0m  [1m[34mSELECT  "ladders".* FROM "ladders" WHERE "ladders"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ db/seeds.rb:39
+  [1m[36mPlayer Create (0.3ms)[0m  [1m[32mINSERT INTO "players" ("ladder_id", "ladder_spot", "name", "match_record", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["ladder_id", 2], ["ladder_spot", 10], ["name", "Danil Medvedev"], ["match_record", "0-0"], ["created_at", "2020-01-18 00:33:09.390570"], ["updated_at", "2020-01-18 00:33:09.390570"]]
+  ↳ db/seeds.rb:39
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:39
