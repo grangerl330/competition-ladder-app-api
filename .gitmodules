@@ -1,3 +1,0 @@
-[submodule "client"]
-	path = client
-	url = git@github.com:grangerl330/competition-ladder-app-client.git
